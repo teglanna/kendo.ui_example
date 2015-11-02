@@ -1,0 +1,64 @@
+.k-alt { background-color: #fff }
+.k-state-selected { background-color: #f3f3f3; background-image: none; color: #2e2e2e}
+.k-grid, .k-grid td, tr { border-color:#fff;}
+.k-grid-footer {
+  background-color: #f3f3f3;
+}
+
+/* Title column */
+.k-grid .title_a{
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: left;
+}
+
+.pipe {
+  width: 30px;
+  height: 30px;
+}
+
+.tick {
+  background-image: url(../images/tick.png);
+}
+
+.icons img  {
+  margin: auto;
+  height: 40px;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);          
+}
+
+.icons img:hover, .icons img:focus, .icons img:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.menu {
+  padding: 10px;
+}
+
+
+/*Buttons*/
+.k-grid-delete, .k-grid-delete:hover, .k-grid-delete:focus{
+	background:url(../images/button.png) no-repeat;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	border: none;
+	height: 50px;
+	width: 100px;
+
+}
+.k-grid-delete span {
+	display: none;
+}
+
+/* Data display */
+.row_data {
+  padding: 10px 40px;
+}
